@@ -5,7 +5,7 @@ This is a Kanjobal-English bilingual corpus I compiled during my internship at t
 
 ## Structure
 * `kjb-en` contains a Kanjobal (ISO: kjb) corpus of roughly 8310 sentences/Bible verses and ~11720 distinct tokens. It was compiled using the Kanjobal Bible available on [bible.is](https://live.bible.is/bible/KJBSBG/), and a Pedro Miguel Say's book [**Ikʹtiʹ yuu naj pel mekel ana**](https://www.worldcat.org/title/ikti-yuu-naj-pel-mekel-ana-cuentos-de-don-pedro-miguel-say-dibujos-de-virves-garcia-traduccion-y-redaccion-de-fernando-penalosa-et-al/oclc/28421867&referer=brief_results) which I have scanned using [Tesseract](https://tesseract-ocr.github.io/) and manually aligned by sentence/sentence-like fragments. 
-* `knj-en` contains an Akateko (also known as Eastern Kanjobal, ISO: kjb) corpus of roughly 30016 sentences/Bible verses and ~19790 distinct tokens. It was compiled using the Akateko Bible available on [bible.is](https://live.bible.is/bible/KNJAEM/).
+* `knj-en` contains an Akateko (also known as Eastern Kanjobal, ISO: knj) corpus of roughly 30016 sentences/Bible verses and ~19790 distinct tokens. It was compiled using the Akateko Bible available on [bible.is](https://live.bible.is/bible/KNJAEM/).
 * Each directory is divided into `corpus`, `documents`, and `metadata` subdirectories.
   * `corpus` contains plaintext versions of the corpus in each language under `plaintext`, and document, line number, and classification (genre) annotated .csv version of the corpus under `csv`.
   * `documents` contains the original documents.
